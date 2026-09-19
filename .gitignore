@@ -1,0 +1,20 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Editor/project files
+.vscode/
+.DS_Store
+
+# Generated output folders for captures
+captures/
+out/
+
+# Windows artifacts
+Thumbs.db
+Desktop.ini
