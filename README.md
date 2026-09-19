@@ -5,6 +5,8 @@ built-in M5GFX font, detects which characters actually render visible pixels,
 and prints them page by page on the screen — streaming each filled page to a
 PC-side Python script as a BMP screenshot over serial.
 
+![CoreInk_FontLab](CoreInk_FontLab.jpg)
+
 ## Hardware
 
 - M5Stack CoreInk
