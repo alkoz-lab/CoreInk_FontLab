@@ -33,11 +33,11 @@ void loop()
   {
     if (M5.BtnA.wasPressed())
     {
-      selectNextFont();
+      selectPrevFont();
     }
     else if (M5.BtnC.wasPressed())
     {
-      selectPrevFont();
+      selectNextFont();
     }
     else if (M5.BtnB.wasPressed())
     {
@@ -48,11 +48,11 @@ void loop()
   {
     if (M5.BtnA.wasPressed())
     {
-      contentNextPage();
+      contentPrevPage();
     }
     else if (M5.BtnC.wasPressed())
     {
-      contentPrevPage();
+      contentNextPage();
     }
     else if (M5.BtnB.wasPressed())
     {

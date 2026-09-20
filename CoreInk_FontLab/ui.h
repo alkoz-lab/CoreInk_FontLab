@@ -4,8 +4,8 @@
 #include <M5GFX.h>
 
 #include "font_layout.h"
-#include "capture.h"
 #include "browser_ui.h"
+#include "capture.h"
 
 extern M5GFX display;
 

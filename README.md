@@ -5,7 +5,9 @@ built-in M5GFX font, detects which characters actually render visible pixels,
 and prints them page by page on the screen — streaming each filled page to a
 PC-side Python script as a BMP screenshot over serial.
 
-![CoreInk_FontLab](CoreInk_FontLab.jpg)
+![CoreInk_FontLab](img/CoreInk_FontLab.jpg)
+![CoreInk_FontLab_Menu](img/CoreInk_FontLab_Menu.jpg)
+![CoreInk_FontLab_AsciiFont](img/CoreInk_FontLab_AsciiFont.jpg)
 
 ## Hardware
 
@@ -90,8 +92,8 @@ python capture_screenshots.py <PORT> [--baud 115200] [--out-dir captures]
 The [`screenshots/`](screenshots/) folder contains the BMP pages produced by a
 capture run. A few examples:
 
-![Font8x8C64 capture](screenshots/Font8x8C64.bmp)
-![AsciiFont8x16 capture](screenshots/AsciiFont8x16.bmp)
+![Font8x8C64 capture](screenshots/Font8x8C64_page1.bmp)
+![AsciiFont8x16 capture](screenshots/AsciiFont8x16_page1.bmp)
 ![FreeSerif9pt capture](screenshots/FreeSerif9pt.bmp)
 
 The full captured gallery is in [captured-screenshots.md](captured-screenshots.md).

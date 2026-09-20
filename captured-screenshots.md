@@ -4,7 +4,11 @@ This gallery contains every screenshot captured from the CoreInk font scan.
 
 <h4>AsciiFont8x16</h4>
 <p>
-<img src="screenshots/AsciiFont8x16.bmp" alt="AsciiFont8x16.bmp" width="280" />
+<img src="screenshots/AsciiFont8x16_page1.bmp" alt="AsciiFont8x16_page1.bmp" width="280" />
+<img src="screenshots/AsciiFont8x16_page2.bmp" alt="AsciiFont8x16_page2.bmp" width="280" />
+<img src="screenshots/AsciiFont8x16_page3.bmp" alt="AsciiFont8x16_page3.bmp" width="280" />
+<img src="screenshots/AsciiFont8x16_page4.bmp" alt="AsciiFont8x16_page4.bmp" width="280" />
+<img src="screenshots/AsciiFont8x16_page5.bmp" alt="AsciiFont8x16_page5.bmp" width="280" />
 </p>
 
 <h4>DejaVu12</h4>
@@ -30,12 +34,15 @@ This gallery contains every screenshot captured from the CoreInk font scan.
 
 <h4>Font0_GLCD6x8</h4>
 <p>
-<img src="screenshots/Font0_GLCD6x8.bmp" alt="Font0_GLCD6x8.bmp" width="280" />
+<img src="screenshots/Font0_GLCD6x8_page1.bmp" alt="Font0_GLCD6x8_page1.bmp" width="280" />
+<img src="screenshots/Font0_GLCD6x8_page2.bmp" alt="Font0_GLCD6x8_page2.bmp" width="280" />
+<img src="screenshots/Font0_GLCD6x8_page3.bmp" alt="Font0_GLCD6x8_page3.bmp" width="280" />
 </p>
 
 <h4>Font2</h4>
 <p>
-<img src="screenshots/Font2.bmp" alt="Font2.bmp" width="280" />
+<img src="screenshots/Font2_page1.bmp" alt="Font2_page1.bmp" width="280" />
+<img src="screenshots/Font2_page2.bmp" alt="Font2_page2.bmp" width="280" />
 </p>
 
 <h4>Font4</h4>
@@ -62,7 +69,8 @@ This gallery contains every screenshot captured from the CoreInk font scan.
 
 <h4>Font8x8C64</h4>
 <p>
-<img src="screenshots/Font8x8C64.bmp" alt="Font8x8C64.bmp" width="280" />
+<img src="screenshots/Font8x8C64_page1.bmp" alt="Font8x8C64_page1.bmp" width="280" />
+<img src="screenshots/Font8x8C64_page2.bmp" alt="Font8x8C64_page2.bmp" width="280" />
 </p>
 
 <h4>FreeMono12pt</h4>
