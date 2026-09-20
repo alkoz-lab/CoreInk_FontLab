@@ -123,7 +123,10 @@ static void captureFont(const BuiltinFont &bf, size_t fontIndex)
 
   std::vector<Glyph> glyphs = detectPrintableGlyphs(bf.font, fontH);
   std::vector<int> pageStarts = buildPageStarts(glyphs, fontH, screenW, screenH, !bf.digitsOnly);
-  const int totalPages = (int)pageStarts.size() - 1;
+  const int regularPageCount = (int)pageStarts.size() - 1;
+  const std::vector<Glyph> specialGlyphs = buildSpecialGlyphs(glyphs);
+  const int specialPageCount = isSpecialCharacterFont(bf) ? getSpecialCharacterPageCount(bf, specialGlyphs, fontH) : 0;
+  const int totalPages = regularPageCount + specialPageCount;
 
   Serial.printf("%s detected codepoints (%u):", bf.name, (unsigned)glyphs.size());
   for (auto &g : glyphs)
@@ -139,11 +142,18 @@ static void captureFont(const BuiltinFont &bf, size_t fontIndex)
     return String(bf.name) + "_page" + String(page) + ".bmp";
   };
 
-  for (int p = 0; p < totalPages; ++p)
+  for (int p = 0; p < regularPageCount; ++p)
   {
     renderContentPage(bf, glyphs, pageStarts[p], pageStarts[p + 1], p, fontH, screenW, ascent);
     display.display();
     sendPageAndWaitAck(pageFileName(p + 1));
+  }
+
+  for (int p = 0; p < specialPageCount; ++p)
+  {
+    renderSpecialCharacterPage(bf, specialGlyphs, p, fontH);
+    display.display();
+    sendPageAndWaitAck(pageFileName(regularPageCount + p + 1));
   }
 
   Serial.printf("Font %u/%u done: %s (%d page%s, %u glyphs)\n",
