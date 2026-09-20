@@ -93,7 +93,8 @@ capture run. A few examples:
 ![Font8x8C64 capture](screenshots/Font8x8C64.bmp)
 ![AsciiFont8x16 capture](screenshots/AsciiFont8x16.bmp)
 ![FreeSerif9pt capture](screenshots/FreeSerif9pt.bmp)
-![Orbitron_Light_24 capture](screenshots/Orbitron_Light_24_page1.bmp)
+
+The full captured gallery is in [captured-screenshots.md](captured-screenshots.md).
 
 ## Troubleshooting
 
