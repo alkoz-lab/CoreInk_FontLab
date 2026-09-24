@@ -4,7 +4,7 @@
 Usage:
     python capture_screenshots.py COM5 [--baud 115200] [--out-dir captures]
 
-Start this script first, then press the CoreInk's top button. The device will
+Start this script first. The device will
 automatically walk every built-in font, streaming one BMP per filled page. This
 script saves each BMP, sends an ACK so the device can continue, and prints
 progress as files arrive. It exits automatically when the device signals
@@ -22,11 +22,15 @@ BEGIN_MARKER = b"BEGIN_BMP"
 END_MARKER = b"END_BMP"
 NAME_PREFIX = b"NAME:"
 DONE_MARKER = b"ALL_DONE"
+SCAN_PROGRESS_PREFIX = b"SCAN_PROGRESS:"
 BMP_HEADER_SIZE = 54
 
 
 def read_line(ser: serial.Serial) -> bytes:
-    return ser.readline().strip()
+    line = ser.readline()
+    if not line:
+        raise TimeoutError("Timed out waiting for the device")
+    return line.strip()
 
 
 def sanitize_filename(name: str) -> str:
@@ -76,6 +80,16 @@ def capture_one_page(ser: serial.Serial, name: str, out_dir: Path) -> Path:
     return out_path
 
 
+def print_scan_progress(line: bytes) -> None:
+    fields = line[len(SCAN_PROGRESS_PREFIX):].decode(errors="replace").split(":")
+    if len(fields) != 4:
+        print(line.decode(errors="replace"))
+        return
+
+    font_name, percent, codepoint, glyph_count = fields
+    print(f"Scanning {font_name}: {percent}% at U+{codepoint}, {glyph_count} glyphs detected")
+
+
 def open_serial(port: str, baud: int) -> serial.Serial:
     ser = serial.Serial(port, baud, timeout=20, dsrdtr=False, rtscts=False)
     ser.dtr = False
@@ -97,11 +111,13 @@ def run(port: str, baud: int, out_dir: Path) -> None:
 
         while True:
             line = read_line(ser)
-            if not line:
-                continue
 
             if line.startswith(NAME_PREFIX):
                 pending_name = line[len(NAME_PREFIX):].decode(errors="replace").strip()
+                continue
+
+            if line.startswith(SCAN_PROGRESS_PREFIX):
+                print_scan_progress(line)
                 continue
 
             if line == BEGIN_MARKER:

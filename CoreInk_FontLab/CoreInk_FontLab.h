@@ -1,6 +1,7 @@
 #pragma once
 
 #include "font_layout.h"
-#include "browser_ui.h"
-#include "capture.h"
+#include "BrowseController.h"
+#include "PcLink.h"
+#include "CaptureWorkflow.h"
 #include "ui.h"
