@@ -11,6 +11,14 @@ This gallery contains every screenshot captured from the CoreInk font scan.
 <img src="screenshots/AsciiFont8x16_page5.bmp" alt="AsciiFont8x16_page5.bmp" width="280" />
 </p>
 
+<h4>AsciiFont24x48</h4>
+<p>
+<img src="screenshots/AsciiFont24x48_page1.bmp" alt="AsciiFont24x48_page1.bmp" width="280" />
+<img src="screenshots/AsciiFont24x48_page2.bmp" alt="AsciiFont24x48_page2.bmp" width="280" />
+<img src="screenshots/AsciiFont24x48_page3.bmp" alt="AsciiFont24x48_page3.bmp" width="280" />
+<img src="screenshots/AsciiFont24x48_page4.bmp" alt="AsciiFont24x48_page4.bmp" width="280" />
+</p>
+
 <h4>DejaVu12</h4>
 <p>
 <img src="screenshots/DejaVu12.bmp" alt="DejaVu12.bmp" width="280" />
@@ -396,5 +404,151 @@ This gallery contains every screenshot captured from the CoreInk font scan.
 <p>
 <img src="screenshots/Yellowtail_32_page1.bmp" alt="Yellowtail_32_page1.bmp" width="280" />
 <img src="screenshots/Yellowtail_32_page2.bmp" alt="Yellowtail_32_page2.bmp" width="280" />
+</p>
+
+## Unicode fonts
+
+<h4>efontCN_16 (Unicode) - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/efontCN_16_page1.bmp" alt="efontCN_16_page1.bmp" width="280" />
+<img src="screenshots/efontCN_16_page2.bmp" alt="efontCN_16_page2.bmp" width="280" />
+<img src="screenshots/efontCN_16_page51.bmp" alt="efontCN_16_page51.bmp" width="280" />
+<img src="screenshots/efontCN_16_page52.bmp" alt="efontCN_16_page52.bmp" width="280" />
+<img src="screenshots/efontCN_16_page53.bmp" alt="efontCN_16_page53.bmp" width="280" />
+<img src="screenshots/efontCN_16_page54.bmp" alt="efontCN_16_page54.bmp" width="280" />
+<img src="screenshots/efontCN_16_page55.bmp" alt="efontCN_16_page55.bmp" width="280" />
+<img src="screenshots/efontCN_16_page56.bmp" alt="efontCN_16_page56.bmp" width="280" />
+<img src="screenshots/efontCN_16_page57.bmp" alt="efontCN_16_page57.bmp" width="280" />
+<img src="screenshots/efontCN_16_page58.bmp" alt="efontCN_16_page58.bmp" width="280" />
+<img src="screenshots/efontCN_16_page59.bmp" alt="efontCN_16_page59.bmp" width="280" />
+<img src="screenshots/efontCN_16_page60.bmp" alt="efontCN_16_page60.bmp" width="280" />
+<img src="screenshots/efontCN_16_page61.bmp" alt="efontCN_16_page61.bmp" width="280" />
+<img src="screenshots/efontCN_16_page62.bmp" alt="efontCN_16_page62.bmp" width="280" />
+<img src="screenshots/efontCN_16_page63.bmp" alt="efontCN_16_page63.bmp" width="280" />
+<img src="screenshots/efontCN_16_page64.bmp" alt="efontCN_16_page64.bmp" width="280" />
+<img src="screenshots/efontCN_16_page65.bmp" alt="efontCN_16_page65.bmp" width="280" />
+<img src="screenshots/efontCN_16_page66.bmp" alt="efontCN_16_page66.bmp" width="280" />
+<img src="screenshots/efontCN_16_page67.bmp" alt="efontCN_16_page67.bmp" width="280" />
+</p>
+
+<h4>efontJA_12 (Unicode) - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/efontJA_12_page1.bmp" alt="efontJA_12_page1.bmp" width="280" />
+<img src="screenshots/efontJA_12_page2.bmp" alt="efontJA_12_page2.bmp" width="280" />
+<img src="screenshots/efontJA_12_page3.bmp" alt="efontJA_12_page3.bmp" width="280" />
+<img src="screenshots/efontJA_12_page41.bmp" alt="efontJA_12_page41.bmp" width="280" />
+</p>
+
+<h4>efontJA_16 (Unicode) - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/efontJA_16_page1.bmp" alt="efontJA_16_page1.bmp" width="280" />
+<img src="screenshots/efontJA_16_page2.bmp" alt="efontJA_16_page2.bmp" width="280" />
+<img src="screenshots/efontJA_16_page3.bmp" alt="efontJA_16_page3.bmp" width="280" />
+<img src="screenshots/efontJA_16_page5.bmp" alt="efontJA_16_page5.bmp" width="280" />
+<img src="screenshots/efontJA_16_page72.bmp" alt="efontJA_16_page72.bmp" width="280" />
+<img src="screenshots/efontJA_16_page73.bmp" alt="efontJA_16_page73.bmp" width="280" />
+<img src="screenshots/efontJA_16_page74.bmp" alt="efontJA_16_page74.bmp" width="280" />
+<img src="screenshots/efontJA_16_page75.bmp" alt="efontJA_16_page75.bmp" width="280" />
+<img src="screenshots/efontJA_16_page76.bmp" alt="efontJA_16_page76.bmp" width="280" />
+<img src="screenshots/efontJA_16_page77.bmp" alt="efontJA_16_page77.bmp" width="280" />
+<img src="screenshots/efontJA_16_page78.bmp" alt="efontJA_16_page78.bmp" width="280" />
+<img src="screenshots/efontJA_16_page79.bmp" alt="efontJA_16_page79.bmp" width="280" />
+<img src="screenshots/efontJA_16_page80.bmp" alt="efontJA_16_page80.bmp" width="280" />
+<img src="screenshots/efontJA_16_page81.bmp" alt="efontJA_16_page81.bmp" width="280" />
+<img src="screenshots/efontJA_16_page82.bmp" alt="efontJA_16_page82.bmp" width="280" />
+<img src="screenshots/efontJA_16_page83.bmp" alt="efontJA_16_page83.bmp" width="280" />
+<img src="screenshots/efontJA_16_page84.bmp" alt="efontJA_16_page84.bmp" width="280" />
+<img src="screenshots/efontJA_16_page85.bmp" alt="efontJA_16_page85.bmp" width="280" />
+<img src="screenshots/efontJA_16_page86.bmp" alt="efontJA_16_page86.bmp" width="280" />
+<img src="screenshots/efontJA_16_page87.bmp" alt="efontJA_16_page87.bmp" width="280" />
+<img src="screenshots/efontJA_16_page88.bmp" alt="efontJA_16_page88.bmp" width="280" />
+<img src="screenshots/efontJA_16_page89.bmp" alt="efontJA_16_page89.bmp" width="280" />
+<img src="screenshots/efontJA_16_page90.bmp" alt="efontJA_16_page90.bmp" width="280" />
+<img src="screenshots/efontJA_16_page91.bmp" alt="efontJA_16_page91.bmp" width="280" />
+<img src="screenshots/efontJA_16_page92.bmp" alt="efontJA_16_page92.bmp" width="280" />
+<img src="screenshots/efontJA_16_page93.bmp" alt="efontJA_16_page93.bmp" width="280" />
+<img src="screenshots/efontJA_16_page94.bmp" alt="efontJA_16_page94.bmp" width="280" />
+<img src="screenshots/efontJA_16_page95.bmp" alt="efontJA_16_page95.bmp" width="280" />
+<img src="screenshots/efontJA_16_page96.bmp" alt="efontJA_16_page96.bmp" width="280" />
+<img src="screenshots/efontJA_16_page97.bmp" alt="efontJA_16_page97.bmp" width="280" />
+<img src="screenshots/efontJA_16_page98.bmp" alt="efontJA_16_page98.bmp" width="280" />
+<img src="screenshots/efontJA_16_page99.bmp" alt="efontJA_16_page99.bmp" width="280" />
+<img src="screenshots/efontJA_16_page100.bmp" alt="efontJA_16_page100.bmp" width="280" />
+</p>
+
+<h4>efontKR_14 (Unicode) - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/efontKR_14_page1.bmp" alt="efontKR_14_page1.bmp" width="280" />
+<img src="screenshots/efontKR_14_page2.bmp" alt="efontKR_14_page2.bmp" width="280" />
+<img src="screenshots/efontKR_14_page4.bmp" alt="efontKR_14_page4.bmp" width="280" />
+<img src="screenshots/efontKR_14_page41.bmp" alt="efontKR_14_page41.bmp" width="280" />
+<img src="screenshots/efontKR_14_page42.bmp" alt="efontKR_14_page42.bmp" width="280" />
+</p>
+
+<h4>efontKR_16 (Unicode) - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/efontKR_16_page1.bmp" alt="efontKR_16_page1.bmp" width="280" />
+<img src="screenshots/efontKR_16_page2.bmp" alt="efontKR_16_page2.bmp" width="280" />
+<img src="screenshots/efontKR_16_page3.bmp" alt="efontKR_16_page3.bmp" width="280" />
+<img src="screenshots/efontKR_16_page5.bmp" alt="efontKR_16_page5.bmp" width="280" />
+<img src="screenshots/efontKR_16_page56.bmp" alt="efontKR_16_page56.bmp" width="280" />
+<img src="screenshots/efontKR_16_page57.bmp" alt="efontKR_16_page57.bmp" width="280" />
+<img src="screenshots/efontKR_16_page58.bmp" alt="efontKR_16_page58.bmp" width="280" />
+<img src="screenshots/efontKR_16_page59.bmp" alt="efontKR_16_page59.bmp" width="280" />
+<img src="screenshots/efontKR_16_page60.bmp" alt="efontKR_16_page60.bmp" width="280" />
+<img src="screenshots/efontKR_16_page61.bmp" alt="efontKR_16_page61.bmp" width="280" />
+<img src="screenshots/efontKR_16_page62.bmp" alt="efontKR_16_page62.bmp" width="280" />
+<img src="screenshots/efontKR_16_page63.bmp" alt="efontKR_16_page63.bmp" width="280" />
+<img src="screenshots/efontKR_16_page64.bmp" alt="efontKR_16_page64.bmp" width="280" />
+<img src="screenshots/efontKR_16_page65.bmp" alt="efontKR_16_page65.bmp" width="280" />
+<img src="screenshots/efontKR_16_page66.bmp" alt="efontKR_16_page66.bmp" width="280" />
+<img src="screenshots/efontKR_16_page67.bmp" alt="efontKR_16_page67.bmp" width="280" />
+<img src="screenshots/efontKR_16_page68.bmp" alt="efontKR_16_page68.bmp" width="280" />
+<img src="screenshots/efontKR_16_page69.bmp" alt="efontKR_16_page69.bmp" width="280" />
+<img src="screenshots/efontKR_16_page70.bmp" alt="efontKR_16_page70.bmp" width="280" />
+<img src="screenshots/efontKR_16_page71.bmp" alt="efontKR_16_page71.bmp" width="280" />
+<img src="screenshots/efontKR_16_page72.bmp" alt="efontKR_16_page72.bmp" width="280" />
+<img src="screenshots/efontKR_16_page73.bmp" alt="efontKR_16_page73.bmp" width="280" />
+<img src="screenshots/efontKR_16_page74.bmp" alt="efontKR_16_page74.bmp" width="280" />
+<img src="screenshots/efontKR_16_page75.bmp" alt="efontKR_16_page75.bmp" width="280" />
+<img src="screenshots/efontKR_16_page76.bmp" alt="efontKR_16_page76.bmp" width="280" />
+<img src="screenshots/efontKR_16_page77.bmp" alt="efontKR_16_page77.bmp" width="280" />
+<img src="screenshots/efontKR_16_page78.bmp" alt="efontKR_16_page78.bmp" width="280" />
+</p>
+
+<h4>lgfxJapanGothicP_12 (Unicode)  - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/lgfxJapanGothicP_12_page1.bmp" alt="lgfxJapanGothicP_12_page1.bmp" width="280" />
+<img src="screenshots/lgfxJapanGothicP_12_page2.bmp" alt="lgfxJapanGothicP_12_page2.bmp" width="280" />
+<img src="screenshots/lgfxJapanGothicP_12_page3.bmp" alt="lgfxJapanGothicP_12_page3.bmp" width="280" />
+<img src="screenshots/lgfxJapanGothicP_12_page19.bmp" alt="lgfxJapanGothicP_12_page19.bmp" width="280" />
+<img src="screenshots/lgfxJapanGothicP_12_page20.bmp" alt="lgfxJapanGothicP_12_page20.bmp" width="280" />
+</p>
+
+<h4>lgfxJapanMincho_16 (Unicode)  - incomplete, only selected parts</h4>
+<p>
+<img src="screenshots/lgfxJapanMincho_16_page1.bmp" alt="lgfxJapanMincho_16_page1.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page2.bmp" alt="lgfxJapanMincho_16_page2.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page3.bmp" alt="lgfxJapanMincho_16_page3.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page5.bmp" alt="lgfxJapanMincho_16_page5.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page30.bmp" alt="lgfxJapanMincho_16_page30.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page31.bmp" alt="lgfxJapanMincho_16_page31.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page32.bmp" alt="lgfxJapanMincho_16_page32.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page33.bmp" alt="lgfxJapanMincho_16_page33.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page34.bmp" alt="lgfxJapanMincho_16_page34.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page35.bmp" alt="lgfxJapanMincho_16_page35.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page36.bmp" alt="lgfxJapanMincho_16_page36.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page37.bmp" alt="lgfxJapanMincho_16_page37.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page38.bmp" alt="lgfxJapanMincho_16_page38.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page39.bmp" alt="lgfxJapanMincho_16_page39.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page40.bmp" alt="lgfxJapanMincho_16_page40.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page41.bmp" alt="lgfxJapanMincho_16_page41.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page42.bmp" alt="lgfxJapanMincho_16_page42.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page43.bmp" alt="lgfxJapanMincho_16_page43.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page44.bmp" alt="lgfxJapanMincho_16_page44.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page45.bmp" alt="lgfxJapanMincho_16_page45.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page46.bmp" alt="lgfxJapanMincho_16_page46.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page48.bmp" alt="lgfxJapanMincho_16_page48.bmp" width="280" />
+<img src="screenshots/lgfxJapanMincho_16_page49.bmp" alt="lgfxJapanMincho_16_page49.bmp" width="280" />
 </p>
 

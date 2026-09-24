@@ -18,7 +18,7 @@ void loop()
 {
   M5.update();
 
-  if (!inBrowseMode)
+  if (!isBrowseModeActive())
   {
     if (checkScriptReady())
     {
@@ -29,7 +29,7 @@ void loop()
       enterBrowseMode();
     }
   }
-  else if (!inContentView)
+  else if (!isContentViewActive())
   {
     if (M5.BtnA.wasPressed())
     {

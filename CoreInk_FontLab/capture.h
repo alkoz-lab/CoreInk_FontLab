@@ -6,6 +6,8 @@
 #include <cstring>
 
 #include "font_layout.h"
+#include "PageLayout.h"
+#include "PageRenderer.h"
 
 extern M5GFX display;
 
@@ -121,11 +123,19 @@ static void captureFont(const BuiltinFont &bf, size_t fontIndex)
   const int screenH = display.height();
   const int ascent = getFontAscent(bf.font);
 
-  std::vector<Glyph> glyphs = detectPrintableGlyphs(bf.font, fontH);
+  std::vector<Glyph> glyphs = detectPrintableGlyphs(bf, fontH, false);
+  display.setFont(bf.font);
+  display.setTextSize(1, 1);
+  display.setTextColor(TFT_BLACK);
+  display.setTextDatum(textdatum_t::top_left);
+  display.setTextWrap(false, false);
   std::vector<int> pageStarts = buildPageStarts(glyphs, fontH, screenW, screenH, !bf.digitsOnly);
   const int regularPageCount = (int)pageStarts.size() - 1;
   const std::vector<Glyph> specialGlyphs = buildSpecialGlyphs(glyphs);
-  const int specialPageCount = isSpecialCharacterFont(bf) ? getSpecialCharacterPageCount(bf, specialGlyphs, fontH) : 0;
+  const std::vector<Glyph> unicodeGlyphs = buildUnicodeGlyphs(glyphs);
+  const int specialPageCount = isUnicodeFont(bf)
+                                   ? getUnicodeCharacterPageCount(bf, unicodeGlyphs, fontH)
+                                   : (isSpecialCharacterFont(bf) ? getSpecialCharacterPageCount(bf, specialGlyphs, fontH) : 0);
   const int totalPages = regularPageCount + specialPageCount;
 
   Serial.printf("%s detected codepoints (%u):", bf.name, (unsigned)glyphs.size());
@@ -151,7 +161,10 @@ static void captureFont(const BuiltinFont &bf, size_t fontIndex)
 
   for (int p = 0; p < specialPageCount; ++p)
   {
-    renderSpecialCharacterPage(bf, specialGlyphs, p, fontH);
+    if (isUnicodeFont(bf))
+      renderUnicodeCharacterPage(bf, unicodeGlyphs, p, fontH);
+    else
+      renderSpecialCharacterPage(bf, specialGlyphs, p, fontH);
     display.display();
     sendPageAndWaitAck(pageFileName(regularPageCount + p + 1));
   }
